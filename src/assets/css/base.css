@@ -16,6 +16,7 @@
 *::after {
   margin: 0;
   padding: 0;
+  /* IE盒子模型 这样的话盒子宽度就是content+padding+border的了 标准盒子模型的width就是content的宽度 设置的话就是content-box*/
   box-sizing: border-box;
 }
 
